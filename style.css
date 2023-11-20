@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgba(255, 116, 3, 0.74);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    color: white;
+}
+
+#navbar {
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    z-index: 999;
+}
+
+.sameline {
+    display: flex;
+    justify-content: space-around;
+}
+
+#carousel1 {
+    margin-top: 0.04vw;
+}
+
+#p_servico {
+    font-size: 3vw;
+}
+
+.modal {
+    color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#buy {
+    display: flex;
+    justify-content: space-around;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.servicos {
+    font-size: 30px;
+    justify-content: center;
+}
+
+.containerIframe {
+    text-align: center;
+}
+
+iframe {
+    border: 5px solid black;
+    border-radius: 18px;
+    text-align: justify;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-between;
+    content: center;
+}
+
+#equipe {
+    text-align: left;
+}
